@@ -48,6 +48,6 @@ public class Almacen {
 	}
 	
 	public static void ordenarPorStock (String orden) {
-		
+	
 	}
 }
