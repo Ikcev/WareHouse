@@ -57,7 +57,7 @@ public abstract class Articulo {
 		this.stock = stock;
 	}
 
-	public static void incrementarStock() {
+	public static void incrementarStock(Integer cantidad) {
 		
 	}
 	
