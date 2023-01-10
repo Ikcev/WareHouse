@@ -14,7 +14,7 @@ public class GestorAlmacenApp {
 		System.out.println("3.	Profundizar producto especifico");
 		System.out.println("4.	Ordenar los productos registrados");
 		System.out.println("5.	Modificar Articulos");
-		System.out.println("6.  Salir");
+		System.out.println("6.	Salir");
 		
 		do {
 			System.out.println("Elija una opción");
