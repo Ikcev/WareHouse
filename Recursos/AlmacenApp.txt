@@ -1,0 +1,9 @@
+REFRESCO - cola - no - si - 9
+VINO - tinto - rioja - 2018 - npi - 12
+CERVEZA - mexico - malta - maiz - 5
+VINO - blanco - navarra - 2008 - npi - 20
+VINO - rosado - npi - 2015 - npi - 5
+CERVEZA - gipuzkoa - levadura - maiz - 10
+REFRESCO - naranja - si - no - 39
+REFRESCO - uva - si - si - 19
+CERVEZA - francia - malta - lupulo - 2
