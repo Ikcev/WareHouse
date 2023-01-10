@@ -2,7 +2,7 @@ package Clases;
 
 public class Cerveza implements Alcoholico{
 	private String origen;
-	private String cereales;
+	private String cereales, cereales2;
 	private Double gradosAlcohol;
 	
 	public String getOrigen() {
@@ -22,6 +22,12 @@ public class Cerveza implements Alcoholico{
 	}
 	public void setGradosAlcohol(Double gradosAlcohol) {
 		this.gradosAlcohol = gradosAlcohol;
+	}
+	public String getCereales2() {
+		return cereales2;
+	}
+	public void setCereales2(String cereales2) {
+		this.cereales2 = cereales2;
 	}
 	
 }
