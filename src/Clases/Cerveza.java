@@ -1,6 +1,6 @@
 package Clases;
 
-public class Cerveza implements Alcoholico{
+public class Cerveza extends Articulo implements Alcoholico{
 	private String origen;
 	private String cereales, cereales2;
 	private Double gradosAlcohol;
