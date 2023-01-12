@@ -9,11 +9,11 @@ public class GestorAlmacenApp {
 		Scanner scan = new Scanner(System.in);
 		
 		System.out.println("Menú:");
-		System.out.println("1.	Realizar Compra");
-		System.out.println("2.	Cargar Fichero");
-		System.out.println("3.	Profundizar producto especifico");
-		System.out.println("4.	Ordenar los productos registrados");
-		System.out.println("5.	Modificar Articulos");
+		System.out.println("1.	Realizar Venta");
+		System.out.println("2.	Realizar Compra");
+		System.out.println("3.	Ver artículos saludables");
+		System.out.println("4.	Ver artículo más caro");
+		System.out.println("5.	Ver los artículos con menos stock que X...");
 		System.out.println("6.	Salir");
 		
 		do {
