@@ -1,7 +1,7 @@
 package Clases;
 
 public class LineaFactura {
-	private Integer numero;
+	private Integer numero = 0;
 	private Articulo articulo;
 	private Integer cantidad;
 	
@@ -12,7 +12,7 @@ public class LineaFactura {
 	}
 
 	public void setNumero(Integer numero) {
-		this.numero = numero;
+		this.numero = numero++;
 	}
 
 	public Articulo getArticulo() {
