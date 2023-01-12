@@ -8,6 +8,7 @@ public class GestorAlmacenApp {
 	public void run() throws ParseException {
 		
 		int select;
+		String fin;
 		Scanner scan = new Scanner(System.in);
 		
 		System.out.println("Menú:");
@@ -33,6 +34,18 @@ public class GestorAlmacenApp {
 				factura.setFecha(sdf.parse(scan.nextLine()));
 				System.out.println("Introduce el concepto por el cual se crea la siguiente factura");
 				factura.setConcepto(scan.nextLine());
+				
+				System.out.println("A continuación se comenzarán a rellenar los parametros que corresponden a una linea de factura");
+				do {
+				LineaFactura lineaFactura = new LineaFactura();
+				System.out.println(lineaFactura.getNumero());
+				System.out.println("Introduce nombre de producto a adquirir");
+				lineaFactura.setArticulo(scan.nextLine());
+				System.out.println("Introduce cantidad");
+				lineaFactura.setCantidad(Integer.parseInt(scan.nextLine()));
+				System.out.println("En caso de estar ser la última línea de la factura introduzca la letra ''f''");
+				fin = scan.nextLine().toLowerCase();
+				}while(!fin.equals("f"));
 				
 			} else if (select==2) {
 				System.out.println("2");
