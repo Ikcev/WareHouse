@@ -9,7 +9,7 @@ public class Factura {
 	private String nombreEmpresa;
 	private Date fecha;
 	private String concepto;
-	
+
 	public static void addLinea(LineaFactura lineaFactura) {
 		
 	}
