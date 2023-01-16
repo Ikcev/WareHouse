@@ -18,8 +18,7 @@ public class Main {
 	
 	public static void main(String[] args) throws ParseException {
 		// TODO Auto-generated method stub
-		GestorAlmacenApp gaa = new GestorAlmacenApp();
-		gaa.run();
+		GestorAlmacenApp.run();
 	}
 
 }
